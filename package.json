@@ -1,0 +1,22 @@
+{
+  "name": "dataline",
+  "version": "1.0.0",
+  "devDependencies": {
+    "uglify-js": "^2.7.3"
+  },
+  "license": "MIT",
+  "main": "dataline.js",
+  "author": {
+    "name": "Raivo Laanemets",
+    "email": "info@rlaanemets.com"
+  },
+  "keywords": [
+    "canvas",
+    "graph",
+    "chart"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rla/dataline"
+  }
+}
