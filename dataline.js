@@ -7,7 +7,9 @@ window.Dataline = (function() {
         }
         if (!data) {
             var values = canvas.getAttribute('data-values');
-            if (values) {
+            if (values === '') {
+                data = [];
+            } else if (values) {
                 data = values.split(',').map(function(value) {
                     return parseFloat(value);
                 });
